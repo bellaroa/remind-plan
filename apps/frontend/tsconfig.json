@@ -7,6 +7,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "baseUrl": ".",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -18,7 +19,17 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/app/*": ["app/*"],
+      "@/public/*": ["public/*"],
+      "@/apis/*": ["src/apis/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/features/*": ["src/features/*"],
+      "@/layouts/*": ["src/layouts/*"],
+      "@/providers/*": ["src/providers/*"],
+      "@/store/*": ["src/store/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/lib/*": ["lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

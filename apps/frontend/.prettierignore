@@ -1,0 +1,5 @@
+*.css
+.next
+.yarn
+coverage
+public/mockServiceWorker.js

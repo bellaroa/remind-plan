@@ -1,0 +1,26 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "jsxSingleQuote": false,
+  "importOrder": [
+    "^react(-dom)?$",
+    "^(?!react)\\w+$",
+    "^next(/.*)?$",
+    "^(?!next)\\w+$",
+    "^@(?!/)(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "interface",
+    "^@/",
+    "^(lib|utils|helpers|services)/",
+    "^\\.\\./(.*)",
+    "^\\./",
+    "\\.svg$",
+    "^./styles\\.module\\.scss$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
